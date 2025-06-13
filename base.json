@@ -33,6 +33,8 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "noUncheckedSideEffectImports": true,
-    "preserveWatchOutput": true
-  }
+    "preserveWatchOutput": true,
+    "typeRoots": ["./node_modules/@types", "./src/typings", "./node_modules/@testing-library"],
+  },
+  "exclude": ["dist","build","node_modules"]
 }

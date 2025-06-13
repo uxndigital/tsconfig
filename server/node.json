@@ -29,11 +29,5 @@
       "@/*": ["./src/*"]
     },
     "baseUrl": "."
-  },
-  "include": [
-    "src/**/*",
-    "*.config.ts",
-    "jest.setup.ts"
-  ],
-  "exclude": ["node_modules", "dist"]
+  }
 }
