@@ -1,7 +1,7 @@
 {
   "name": "@uxndigital/tsconfig",
   "description": "UXN Digital's TypeScript configuration",
-  "version": "1.0.0",
+  "version": "5.0.0",
   "author": "UXN Digital",
   "dependencies": {
     "@types/node": "^20.11.0"
