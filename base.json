@@ -25,6 +25,16 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2022",
-    "useDefineForClassFields": true
-  }
+    "useDefineForClassFields": true,
+    "verbatimModuleSyntax": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noUncheckedSideEffectImports": true,
+    "preserveWatchOutput": true,
+    "typeRoots": ["./node_modules/@types", "./src/typings", "./node_modules/@testing-library"],
+  },
+  "exclude": ["dist","build","node_modules"]
 }
