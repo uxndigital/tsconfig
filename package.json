@@ -1,23 +1,23 @@
 {
   "name": "@uxndigital/tsconfig",
-  "description": "UXN Digital's TypeScript configuration",
-  "version": "1.0.0",
+  "version": "0.0.3",
   "author": "UXN Digital",
   "dependencies": {
-    "@types/node": "^20.11.0"
+    "@types/node": "^20.12.2"
   },
   "files": [
-    "server",
-    "web",
-    "base.json"
+    "app.json",
+    "base.json",
+    "lib.json",
+    "react-lib.json"
   ],
   "license": "MIT",
   "peerDependencies": {
-    "typescript": ">=5.0.0"
+    "typescript": "^5.4.3"
   },
   "publishConfig": {
     "access": "public",
-    "tag": "latest"
+    "tag": "v0"
   },
   "repository": {
     "type": "git",

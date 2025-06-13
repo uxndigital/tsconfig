@@ -8,7 +8,7 @@
     "declarationMap": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
-    "incremental": true,
+    "incremental": false,
     "isolatedModules": true,
     "lib": [
       "es2022",
@@ -19,20 +19,12 @@
     "moduleDetection": "force",
     "moduleResolution": "NodeNext",
     "noUncheckedIndexedAccess": true,
-    "noImplicitAny": true,
+    "noImplicitAny": false,
     "noFallthroughCasesInSwitch": true,
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
     "target": "ES2022",
-    "useDefineForClassFields": true,
-    "verbatimModuleSyntax": true,
-    "allowSyntheticDefaultImports": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noImplicitThis": true,
-    "noUncheckedSideEffectImports": true,
-    "preserveWatchOutput": true
+    "useDefineForClassFields": true
   }
 }
