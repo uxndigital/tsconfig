@@ -24,7 +24,7 @@
   },
   "publishConfig": {
     "access": "public",
-    "tag": ["latest","v5"]
+    "tag": "v5"
   },
   "repository": {
     "type": "git",
