@@ -1,7 +1,7 @@
 {
   "name": "@uxndigital/tsconfig",
   "description": "UXN Digital's TypeScript configuration",
-  "version": "5.0.0",
+  "version": "5.0.1",
   "author": "UXN Digital",
   "dependencies": {
     "@types/node": "^20.12.2"
@@ -10,13 +10,20 @@
     "web/app.json",
     "web/react-lib.json",
     "server/lib.json",
-    "server/node.json"
+    "server/node.json",
+    "base.json"
   ],
   "exports": {
     "./web/app": "./web/app.json",
     "./web/react-lib": "./web/react-lib.json",
     "./server/lib": "./server/lib.json",
-    "./server/node": "./server/node.json"
+    "./server/node": "./server/node.json",
+    "./base": "./base.json",
+    "./web/app.json": "./web/app.json",
+    "./web/react-lib.json": "./web/react-lib.json",
+    "./server/lib.json": "./server/lib.json",
+    "./server/node.json": "./server/node.json",
+    "./base.json": "./base.json"
   },
   "license": "MIT",
   "peerDependencies": {
