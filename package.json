@@ -7,14 +7,20 @@
     "@types/node": "^20.12.2"
   },
   "files": [
-    "app.json",
-    "base.json",
-    "lib.json",
-    "react-lib.json"
+    "web/app.json",
+    "web/react-lib.json",
+    "server/lib.json",
+    "server/node.json"
   ],
+  "exports": {
+    "./web/app": "./web/app.json",
+    "./web/react-lib": "./web/react-lib.json",
+    "./server/lib": "./server/lib.json",
+    "./server/node": "./server/node.json"
+  },
   "license": "MIT",
   "peerDependencies": {
-    "typescript": "^5.4.3"
+    "typescript": ">=5.0.0"
   },
   "publishConfig": {
     "access": "public",

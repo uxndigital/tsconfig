@@ -23,5 +23,6 @@
     },
     "baseUrl": ".",
     "lib": ["dom", "dom.iterable", "esnext"]
-  }
+  },
+  "include": ["src/**/*"],
 }
