@@ -3,7 +3,6 @@
   "display": "Default",
   "compilerOptions": {
     "allowImportingTsExtensions": true,
-    "baseUrl": ".",
     "declaration": true,
     "declarationMap": true,
     "esModuleInterop": true,
@@ -34,7 +33,15 @@
     "noImplicitThis": true,
     "noUncheckedSideEffectImports": true,
     "preserveWatchOutput": true,
-    "typeRoots": ["./node_modules/@types", "./src/typings", "./node_modules/@testing-library"],
+    "typeRoots": [
+      "./node_modules/@types",
+      "./src/typings",
+      "./node_modules/@testing-library"
+    ]
   },
-  "exclude": ["dist","build","node_modules"]
+  "exclude": [
+    "dist",
+    "build",
+    "node_modules"
+  ]
 }

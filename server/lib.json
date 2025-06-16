@@ -12,16 +12,12 @@
     "declarationMap": true,
     "sourceMap": true,
     "skipLibCheck": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
     "removeComments": true,
     "composite": true,
     "incremental": true,
-    "paths": {
-      "@/*": ["./src/*"]
-    },
-    "baseUrl": ".",
     "target": "ES2022",
-    "lib": ["ESNext"]
+    "lib": [
+      "ESNext"
+    ]
   }
 }
