@@ -14,15 +14,12 @@
     "declaration": true,
     "declarationMap": true,
     "sourceMap": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
     "composite": true,
     "incremental": true,
-    "paths": {
-      "@/*": ["./src/*"]
-    },
-    "baseUrl": ".",
-    "lib": ["dom", "dom.iterable", "esnext"]
-  },
-  "include": ["src/**/*"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ]
+  }
 }
