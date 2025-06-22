@@ -4,23 +4,13 @@
   "extends": "../base.json",
   "compilerOptions": {
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",
-    "target": "ES2022",
+    "composite": true,
     "lib": [
       "ESNext"
     ],
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
-    "skipLibCheck": true,
-    "verbatimModuleSyntax": true,
-    "moduleDetection": "force",
-    "strict": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true,
-    "incremental": true,
-    "composite": true,
-    "declaration": true,
-    "declarationMap": true,
+    "removeComments": true,
     "sourceMap": true
   }
 }

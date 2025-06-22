@@ -18,7 +18,6 @@
     "./web/react-lib": "./web/react-lib.json",
     "./server/lib": "./server/lib.json",
     "./server/node": "./server/node.json",
-    "./base": "./base.json",
     "./web/app.json": "./web/app.json",
     "./web/react-lib.json": "./web/react-lib.json",
     "./server/lib.json": "./server/lib.json",
