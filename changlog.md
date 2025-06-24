@@ -1,0 +1,24 @@
+## 5.0.2
+- 删除 `"allowImportingTsExtensions": true`。在 `module` 为 `node16` 、 `nodenext` 和 `bundler` 时 `rewriteRelativeImportExtensions` 默认为 `true`。`allowImportingTsExtensions` 为 `false`。不应该做限制
+- lib 下 `removeComments` 为 `true`
+- monorepo 下相互引入需要设置 `"incremental": true`
+    > Composite projects may not disable incremental compilation.ts
+- node 下默认 tsc 编译，`isolatedModules=false`。react 下默认 vite/webpack 编译，`isolatedModules=true` 
+- 其他文件单独设置，删除 base 里多余的配置
+    - `"lib"`
+    - `"moduleResolution": "NodeNext",`
+    - `"module": "NodeNext",`
+    - `"target": "ES2022",`
+- base 里已经设置，删除其他文件重复配置
+    - `"skipLibCheck": true`
+    - `"strict": true,`
+    - `"moduleDetection": "force"`
+    - `"declaration": true`
+    - `"declarationMap": true`
+    - `"esModuleInterop": true`
+    - `"noFallthroughCasesInSwitch": true`
+    - `"resolveJsonModule": true`
+    - `"target": "ES2022"`
+    - `"verbatimModuleSyntax": true`
+    - `"noUnusedLocals": true`
+    - `"noUnusedParameters": true`

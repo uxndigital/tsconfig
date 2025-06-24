@@ -3,23 +3,18 @@
   "display": "React Library",
   "extends": "../base.json",
   "compilerOptions": {
-    "moduleResolution": "bundler",
-    "module": "ESNext",
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.react-lib.tsbuildinfo",
     "allowJs": true,
-    "allowImportingTsExtensions": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
     "composite": true,
-    "incremental": true,
+    "jsx": "react-jsx",
     "lib": [
       "dom",
       "dom.iterable",
       "esnext"
-    ]
+    ],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "noEmit": true,
+    "sourceMap": true
   }
 }
