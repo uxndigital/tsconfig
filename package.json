@@ -1,10 +1,10 @@
 {
   "name": "@uxndigital/tsconfig",
   "description": "UXN Digital's TypeScript configuration",
-  "version": "5.0.3",
+  "version": "7.0.0",
   "author": "UXN Digital",
   "dependencies": {
-    "@types/node": "^20.12.2"
+    "@types/node": "^26.2.0"
   },
   "files": [
     "web/app.json",
@@ -26,15 +26,18 @@
   },
   "license": "MIT",
   "peerDependencies": {
-    "typescript": ">=5.0.0"
+    "typescript": ">=5.0.0 <8.0.0"
   },
   "publishConfig": {
     "access": "public",
-    "tag": "v5"
+    "tag": "v7"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/uxndigital/tsconfig.git"
+  },
+  "bugs": {
+    "url": "https://github.com/uxndigital/tsconfig/issues"
   },
   "keywords": [
     "typescript",
@@ -44,5 +47,8 @@
   ],
   "engines": {
     "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2"
   }
 }

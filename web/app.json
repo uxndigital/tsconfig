@@ -13,7 +13,6 @@
     ],
     "module": "ESNext",
     "moduleResolution": "bundler",
-    "noEmit": true,
-    "removeComments": true
+    "noEmit": true
   }
 }
